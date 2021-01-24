@@ -1,1 +1,52 @@
+ body {
+     background-color: #E8E8E8;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     flex-direction: row;
+     flex-wrap: nowrap;
+ }
  
+ .large-block {
+    height: 430px;
+ }
+
+ .small-block {
+    height: 210px;
+ }
+
+ .block {
+     box-sizing: border-box;
+     float: left;
+     width: 400px;
+     clear: both;
+ }
+
+ .left-align {
+    text-align: left;
+ }
+
+ .right-align {
+    text-align: right;
+ }
+
+ .center-align {
+    text-align: center;
+ }
+
+
+ #vision-board {
+     width: 1200px;
+     height: 850px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: stretch;
+     flex-direction: row;
+     align-self: center;
+     flex-wrap:wrap; 
+     background-image: url('../img/background.png');
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+ }
