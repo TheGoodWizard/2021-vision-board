@@ -7,13 +7,38 @@
      flex-direction: row;
      flex-wrap: nowrap;
  }
+
+ strong {
+     text-transform: capitalize;
+ }
+
+ img {
+     margin: auto;
+ }
+
+ .highlight {
+     background-color: #ffff00;
+ }
  
  .large-block {
     height: 430px;
+    padding: 5px;
+    margin: auto;
  }
 
  .small-block {
     height: 210px;
+    padding: 3px;
+    margin: auto; 
+ }
+
+ .light-bg {
+     background-color: #fff;
+ }
+
+ .dark-bg {
+     background-color: #3B3B3B;
+     color: #fff;
  }
 
  .block {
@@ -21,6 +46,7 @@
      float: left;
      width: 400px;
      clear: both;
+     margin: auto; 
  }
 
  .left-align {
@@ -33,6 +59,12 @@
 
  .center-align {
     text-align: center;
+ }
+
+ .title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #fff;
  }
 
 
@@ -49,4 +81,5 @@
      background-image: url('../img/background.png');
      font-family: 'Montserrat', sans-serif;
      text-transform: uppercase;
+     margin: auto; 
  }
